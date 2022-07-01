@@ -9,10 +9,10 @@ bibliotecas do Python 3 NumPy e Pandas, exemplo de instalação em um SO baseado
 em Debian/Ubuntu:
 ```shell
 sudo apt install python3 pip3
-pip install numpy pandas
+pip3 install numpy pandas
 ```
 
-##Resolver as constates
+## Resolver as constates
 Para saber quais são as constates do modelo basta executar:
 ```shell
 python3 main.py
@@ -55,13 +55,16 @@ Tabela De Erros
          25.86%          21.55%      22.41%
 ```
 
-##Prever resultados
+## Prever resultados
 Depois de calculado as constates do modelo é possível prever se uma pessoa
 morreu de ataque cardíaco com o script `prever.py`:
 ```shell
-python prever.py
+python3 prever.py
 ```
 Para a execução desse script é necessário o arquivo `prever.csv`, a descrição
 dele é igual do arquivo `data.csv`, e do arquivo `constates.csv` que foi gerado
 a partir de `main.py`. No final da execução do programa é criado o arquivo
 `resultado.csv` onde tem se a pessoa morreu ou não de ataque cardíaco.
+
+## Exemplo de execução
+![Imagem Mostrando Um Exemplo De Execução](/exemplo_execução.png)
