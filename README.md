@@ -1,4 +1,4 @@
-# Resolução do teste extra de Algebra Linear II
+# Resolução do teste extra de Álgebra Linear II
 Foi feito um script em python para para prever se uma pessoa irá morrer de ataque
 cardíaco, o modelo utilizado foi um sistema linear simples e foi resolvido por 
 meio de mínimos quadrados.
